@@ -20,3 +20,8 @@ to [this repo](https://github.com/auth0/angular2-electron). There are some sligh
 * Removed Line 14<br/>
 * Line 19 (webpack.config):<br/>
 		* Changed `'app': .app/app`  --> `'app': ./app/app`<br/>
+		
+
+####tsconfig.json<br/>
+* Changed Line 11 to:<br/>
+		* "./app/app.ts"
