@@ -1,7 +1,7 @@
 # Electron-Angular2
 
-This Electron/Angular2 demo is based off of <https://auth0.com/blog/2015/12/15/create-a-desktop-app-with-angular-2-and-electron/>,<br/>which is linked 
-to [this repo](https://github.com/auth0/angular2-electron). There are some slight tweaks to the webconfig, as I couldn't get chenkie's source to run correctly.<br/>
+This Electron/Angular2 demo is based off of <https://auth0.com/blog/2015/12/15/create-a-desktop-app-with-angular-2-and-electron/>, which is linked 
+to [this repo](https://github.com/auth0/angular2-electron).<br/> There are some slight tweaks to the webconfig, as I couldn't get chenkie's source to run correctly.<br/>
 
 ***
 
@@ -15,6 +15,5 @@ to [this repo](https://github.com/auth0/angular2-electron). There are some sligh
 ...apparently this is an issue with npm 3 and will probably be fixed in the near future.<br/>
 
 ####webpack.config.js changes:<br/>
-* Removed Line 14<br/>
 * Line 19 (webpack.config):<br/>
-		* Changed `'app': .app/app`  --> `'app': ./build/app`<br/>
+		* Changed `'app': .app/app`  --> `'app': ./app/app`<br/>
