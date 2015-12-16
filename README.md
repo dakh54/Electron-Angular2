@@ -7,9 +7,9 @@ to [this repo](https://github.com/auth0/angular2-electron). There are some sligh
 
 ##Issues encountered
 *  Despite copying the original tutorial's `package.json`, I had to manually install:<br/>
-		*  `npm install electron --save`
-		*  `npm install es6-shim@0.33.3 --save`
-		*  `npm install reflect-metadata@0.1.2 --save`
+		*  `npm install electron --save`<br/>
+		*  `npm install es6-shim@0.33.3 --save`<br/>
+		*  `npm install reflect-metadata@0.1.2 --save`<br/>
 		*  `npm install rxjs@5.0.0-beta.0 --save`<br/>
 		
 ...apparently this is an issue with npm 3 and will probably be fixed in the near future.<br/>
