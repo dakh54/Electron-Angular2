@@ -14,3 +14,7 @@ to [this repo](https://github.com/auth0/angular2-electron). There are some sligh
 		
 ...apparently this is an issue with npm 3 and will probably be fixed in the near future.<br/>
 
+####webpack.config.js changes:<br/>
+* Removed Line 14<br/>
+* Line 19 (webpack.config):<br/>
+		* Changed `'app': .app/app`  --> `'app': ./build/app`<br/>
