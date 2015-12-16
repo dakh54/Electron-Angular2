@@ -11,12 +11,11 @@ module.exports = {
             'rxjs',
             'zone.js',
             'reflect-metadata',
-            //'angular2/angular2',
             'angular2/core',
             'angular2/router',
             'angular2/http'
         ],
-        'app': './build/app'
+        'app': './app/app'
     },
 
     output: {
